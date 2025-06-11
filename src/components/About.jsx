@@ -1,6 +1,12 @@
 import RaghavImage from '../assets/raghavendra.jpeg'
 const About = () => {
-    const courses = [{id: 'htmlandcss',course_name: 'HTML & CSS', known: 7.5}, {id:'nodejs', course_name: 'Node.js', known: 9.5}, {id: 'angular', course_name: 'Angular', known: 8.5}]
+    const courses = [
+        {id: 'html',course_name: 'HTML', known: 7.5}, 
+        {id: 'tailwindcss',course_name: 'Tailwind CSS', known: 7.5}, 
+        {id:'nodejs', course_name: 'Node.js', known: 9.5}, 
+        {id: 'angular', course_name: 'Angular', known: 8.5},
+        {id: 'react', course_name: 'React', known: 8}
+    ]
     return (
         <div className='bg-black text-white py-20' id='about'>
             <div className='container mx-auto px-8 md:px-16 lg:px-24'>
