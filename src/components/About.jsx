@@ -22,7 +22,7 @@ const About = () => {
                         {
                             courses.map(course => {
                                 return (
-                                <div className='space-y-4 md:space-y-8'>
+                                <div className='space-y-4 md:space-y-8' key={course.id}>
                                     <div className='flex items-center'>
                                         <label htmlFor={course.id} className='w-2/12'>
                                             {course.course_name}
